@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Corp - sign up </title>
+    <link rel="stylesheet" href="sign-up-style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Meme Corp</h1>
+        <p>Social media for memers</p>
+        <form class="sign-up-form">
+            <div id="fname">
+                <label for="fname-input">Name</label>
+                <input type="text" id="fname-input" placeholder="Name" required>
+            </div>
+            <div id="email">
+                <label for="email-input">Email</label>
+                <input type="email" id="email-input" placeholder="Example@gmail.com" required>
+            </div>
+            <div id="pass">
+                <label for="pass-input">Password</label>
+                <input type="password" id="pass-input" placeholder="Password" required>
+            </div>
+            <p>Already have an account <a href="login.html">login</a>?</p>
+        </form>
+        <button id="sign-btn" onclick="userRegis()">Sign up</button>
+    </div>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+<script src="src-backend/script.js"></script>
+</html>
+
